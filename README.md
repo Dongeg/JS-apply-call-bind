@@ -61,7 +61,7 @@ functionisArray(obj){
 ```javascript
 var domNodes = Array.prototype.slice.call(document.getElementsByTagName("*"));
 //或者酱紫
-var domNodes = [].slice.call(document.getElementByTagName("*"));
+var domNodes = [].slice.call(document.getElementsByTagName("*"));
 ```
 
 ## 一道面试题目
