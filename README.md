@@ -1,5 +1,6 @@
 # 深入浅出 妙用Javascript中apply、call、bind
 
+call和apply的作用都是改变函数中<b>this</b>的指向，即上下文环境
 ## apply、call用法的简单示例
 ```javascript
 function fruits() {}
