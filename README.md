@@ -60,7 +60,8 @@ functionisArray(obj){
 * 类（伪）数组使用数组方法
 ```javascript
 var domNodes = Array.prototype.slice.call(document.getElementsByTagName("*"));
-//var domNodes = [].slice.call(document.getElementByTagName("*"));
+//或者酱紫
+var domNodes = [].slice.call(document.getElementByTagName("*"));
 ```
 
 ## 一道面试题目
