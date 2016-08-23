@@ -47,7 +47,8 @@ Array.prototype.push.apply(array1, array2);
 * 获取数组中的最大值和最小值
 ```javascript
 var  numbers = [5, 458 , 120 , -215 ];  
-var maxInNumbers = Math.max.apply(Math, numbers),	//458
+var maxInNumbers = Math.max.apply(Math, numbers);	//458
+                   Math.max.apply(null, numbers);
 	maxInNumbers = Math.max.call(Math,5, 458 , 120 , -215);	//458
 ```
 
